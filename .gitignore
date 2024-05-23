@@ -4,3 +4,5 @@
 *.csproj
 *.sln
 *.log
+/BGS-TASK/Assets/Local
+BGS-TASK/Assets/Local.meta

@@ -1,0 +1,6 @@
+
+/BGS-TASK/Library
+/BGS-TASK/Temp
+*.csproj
+*.sln
+*.log

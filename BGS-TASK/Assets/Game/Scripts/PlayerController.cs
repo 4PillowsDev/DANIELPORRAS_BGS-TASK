@@ -38,6 +38,10 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    public void SelectSkin(int skin){
+        currentSkin = skin;
+    }
+
     void FixedUpdate()
     {
         transform.Translate(h*speed*Time.deltaTime, v*speed*Time.deltaTime,0);

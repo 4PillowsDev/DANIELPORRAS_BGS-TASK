@@ -189,7 +189,7 @@ TextureImporter:
         width: 919
         height: 389
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 72, y: 76, z: 80, w: 74}
       outline: []
       physicsShape: []
@@ -197,6 +197,48 @@ TextureImporter:
       bones: []
       spriteID: ecc42c8848719c644b864ae8d3882803
       internalID: -292896549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 95
+        width: 347
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3c89cd342f9d347a9db184c1cb2438
+      internalID: 722282870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 89
+        width: 158
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c4523c403d3a640b0cbbfda6027d10
+      internalID: 471442290
       vertices: []
       indices: 
       edges: []
@@ -217,6 +259,8 @@ TextureImporter:
       GeneralAtlas_2: -617576596
       GeneralAtlas_3: -1201406087
       GeneralAtlas_4: -292896549
+      GeneralAtlas_5: 722282870
+      GeneralAtlas_6: 471442290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -29,10 +29,9 @@ MonoBehaviour:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
   m_RendererFeatures:
-  - {fileID: 5763590819884130618}
   - {fileID: 140390290076304729}
   - {fileID: -4905031128775387655}
-  m_RendererFeatureMap: 3a61e5595063fc4f5985e99939c4f201f9151c252dd4edbb
+  m_RendererFeatureMap: 5985e99939c4f201f9151c252dd4edbb
   m_UseNativeRenderPass: 0
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 1, z: 0}
@@ -94,26 +93,6 @@ MonoBehaviour:
   fetchColorBuffer: 1
   requirements: 0
   passMaterial: {fileID: 2100000, guid: d47397a2d4a0e934f86b4c963d1fd3a5, type: 2}
-  passIndex: 0
-  bindDepthStencilAttachment: 0
-  m_Version: 1
---- !u!114 &5763590819884130618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
-  m_Name: FullScreenPassRendererFeature
-  m_EditorClassIdentifier: 
-  m_Active: 0
-  injectionPoint: 550
-  fetchColorBuffer: 1
-  requirements: 0
-  passMaterial: {fileID: 2100000, guid: 40a8c269df644004aace3494b5ac3e7b, type: 2}
   passIndex: 0
   bindDepthStencilAttachment: 0
   m_Version: 1

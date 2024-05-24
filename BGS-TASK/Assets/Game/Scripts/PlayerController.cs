@@ -12,15 +12,30 @@ public class PlayerController : MonoBehaviour
     public GameObject Cam;
     public float CamSpeed = 0.5f;
 
+    public GameObject[] Skins;
+    public Animator[] Animators;
+
+    public int currentSkin;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     void Update(){
+
         h = Input.GetAxis("Horizontal");
         v = Input.GetAxis("Vertical");
+
+        if(currentSkin == 0){
+
+        Animators[0].SetFloat("h", h);
+        Animators[0].SetFloat("v", v);
+
+        }
+   
+
     }
 
     void FixedUpdate()

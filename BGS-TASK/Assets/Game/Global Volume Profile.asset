@@ -232,7 +232,7 @@ MonoBehaviour:
     m_Value: 500
   Chroma:
     m_OverrideState: 1
-    m_Value: -17
+    m_Value: -10
 --- !u!114 &8399839063179058877
 MonoBehaviour:
   m_ObjectHideFlags: 3

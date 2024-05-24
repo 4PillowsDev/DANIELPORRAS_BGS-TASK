@@ -75,7 +75,7 @@ public class SellDialog : MonoBehaviour
         Anim.SetBool("Sell", true);
         manager.money -= price;
         playerC.SelectSkin(skinNumber);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         skinInventory.SetActive(true);
         Anim.SetBool("Sell", false);
         yield break;

@@ -157,7 +157,6 @@ MonoBehaviour:
   - {fileID: 810960271962139627}
   - {fileID: -7248096019115654221}
   - {fileID: -1212193531408936272}
-  - {fileID: 7968364837770009275}
 --- !u!114 &810960271962139627
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -211,28 +210,6 @@ MonoBehaviour:
   rounded:
     m_OverrideState: 0
     m_Value: 0
---- !u!114 &7968364837770009275
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abdf82dce54b9634196816626582aa87, type: 3}
-  m_Name: ChromaticVolume
-  m_EditorClassIdentifier: 
-  active: 1
-  Active:
-    m_OverrideState: 1
-    m_Value: 1
-  When:
-    m_OverrideState: 0
-    m_Value: 500
-  Chroma:
-    m_OverrideState: 1
-    m_Value: -10
 --- !u!114 &8399839063179058877
 MonoBehaviour:
   m_ObjectHideFlags: 3
